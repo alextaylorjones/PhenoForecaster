@@ -51,12 +51,6 @@ def click_runner_ManualEntry():
     MAE_cell.set(MAE_Selected)
    #output_cell.set('trht')
 
-
-# In[ ]:
-
-
-
-
 def predCalc_File(row):  #definition to pply atan to all rows
     return (row['bFFP'] * bFFP_Selected) + (row['NFFD_wt'] * NFFD_wt_Selected)     + (row['NFFD_sp'] * NFFD_sp_Selected) + (row['PAS_wt'] * PAS_wt_Selected)     + (row['PAS_sp'] * PAS_sp_Selected) + intercept_Selected
 
@@ -142,7 +136,6 @@ win.resizable(False, False)
 
 speciesFrame = ttk.LabelFrame(win, text = "Species Selection")
 speciesFrame.grid(column = 0, row = 0, padx = 5, pady = 5, sticky= tk.W)
-
 
 
 #Button click event function
@@ -249,7 +242,7 @@ typeChecker.deselect()
 typeChecker.grid(column=0, row=2,  padx = 5, pady = 5, sticky=tk.W)
 
 
-
+## No quit added
 #quitter_Frame = ttk.LabelFrame(win,)
 #quitter_Frame.grid(column = 0, row = 4, padx = 5, pady = 5, sticky= tk.W)
 
