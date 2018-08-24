@@ -14,7 +14,7 @@ Using Windows installer:
 
 
 
-Using Archive (PhenoPredict.ip):
+Using Archive (PhenoPredict.zip):
 * Download and Verify SHA512 hash using ```certUtil -hashfile PhenoPredict\Pheno-Predict-1.0-amd64.msi SHA512``` and match to 
 ```` ec91406acce0bfc94824a197638e76edbcb2932ea038da57469fb09f8c0abc6451eb48475b1ec295fe9fc5d5bf9118ed4ca38b59384274f2cece1a3d1b3ceba7 ````
 * Unzip PhenoPredict folder containing source code, model data, and Windows x86_64 application.
