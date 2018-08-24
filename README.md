@@ -5,7 +5,7 @@ PhenoPredict is the first standalone package to make phenological modelling dire
 ## How to Use
 
 For Windows users: 
-* Installation: Download the MSI install PhenoPredict-1.0-amd64.msi and run.
+* Installation: Download the MSI install ```PhenoPredict-1.0-amd64.msi``` and run.
 * Zip Folder: zip'ed PhenoPredict folder containing source code, model data, and Windows x86_64 application.
 
 ## Installing on Other Platforms
