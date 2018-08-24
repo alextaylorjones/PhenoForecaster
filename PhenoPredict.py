@@ -1,3 +1,7 @@
+"""
+Author: Isaac Park
+Email: isaac_park@ucsb.edu
+"""
 from pandas import read_csv
 import Tkinter
 from os import getcwd
@@ -7,16 +11,11 @@ speciesNum = 99999
 crossValNum = 25
 varListName = 'SeasonOnly'
 
-#coeffs = pd.read_csv('C:\Users\IWP_Canopy/Dropbox/Herbarium_2017/Pheno_Assessed_3/Model_App/Model/Analysis_Results/elastic_Coeffs' + str(MinSamples) + '_' + varListName + "_" + str(crossValNum) + 'Fold_AngiospermOnly_VariableSeasons_3vars.csv')
 basePath = getcwd()
 ModelData = read_csv(basePath + '/PhenoPredict_Ancillary_Files/Data_ForModel.csv')
 ModelData = ModelData.set_index(['Species'])
 speciesList = list(ModelData.index)
 ModelData.head()
-
-
-# In[2]:
-
 
 def click_runner_ManualEntry():
     species_Selected = str(species.get())
