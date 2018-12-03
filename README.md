@@ -7,8 +7,8 @@ PhenoForecaster is the first standalone package to make phenological modelling d
 Using Windows installer: 
 * Installation: 
 * Download the MSI installer ````PhenoForecaster-1.0-amd64.msi````.
-* Calculate SHA512 hash using ```certUtil -hashfile PhenoPredict\PhenoForecaster-amd64.msi SHA512``` and match to 
-```` ee473f7e44522b8e8285b946204fd1fac7de89278993bd1dfdcd866f38e2ea40b3fb45b97c40bd499cdd889bb05aa69c202d860462e52f1580e83022b7e4eaf2 ````
+* Calculate SHA512 hash of installer (e.g. ```certUtil -hashfile PhenoPredict\PhenoForecaster-amd64.msi SHA512``` ) and verify that it is 
+```` f435a69991c4a42f03368f4e1202893c5f85ad3b8d8288180406037f440b1c3f5c83dbe56e1cd68d2f17f9c8ddd9a28932ec7d400cc431dba9233acd9ddda2ee ````
 * Run installer.
 * Run PhenoForecaster.exe in target folder.
 
