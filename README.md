@@ -13,4 +13,4 @@ Using Windows installer:
 * Run PhenoForecaster.exe in target folder.
 
 ## Installing on Different Operating Systems:
-* [cx Freeze](https://anthony-tuininga.github.io/cx_Freeze/). Source code is included as PhenoForecaster.py, use ``python setup.py build`` to build. Note: numpy, pandas, Tkinter must be installed for this to work. Current installation using Python 2.7.x.
+*Cross platform support through [cx Freeze](https://anthony-tuininga.github.io/cx_Freeze/). Source code is included as PhenoForecaster.py, use ``python setup.py build`` to build. Note: numpy, pandas, Tkinter must be installed for this to work. Current installation using Python 2.7.x.
